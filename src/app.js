@@ -4,7 +4,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const apiRoutes = require("./routes/apiRoutes");
 const inqueritoRoute= require("./routes/InqueritoRoute");
-
+const ee=0;
 const app = express();
 
 // --- CONFIGURAÇÕES & MIDDLEWARES ---
